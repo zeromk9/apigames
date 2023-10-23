@@ -1,3 +1,6 @@
+import 'package:apigames/providers/providersGames.dart';
+import 'package:apigames/screens/details_screen.dart';
+import 'package:apigames/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:apigames/providers/providers.dart';
@@ -29,7 +32,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MONSTER HUNTER',
+      title: 'GAMES',
       initialRoute: '/home',
       routes: {
         '/home': (_) => const HomeScreen(),
